@@ -1,9 +1,9 @@
 <?php
 
-namespace Cameron\Admin\Models\System;
+namespace meilunzhi\Admin\Models\System;
 
 use Illuminate\Database\Eloquent\Model;
-use Cameron\Admin\Traits\SerializeDate;
+use meilunzhi\Admin\Traits\SerializeDate;
 
 class Attachment extends Model
 {

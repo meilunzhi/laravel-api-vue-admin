@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Cameron\Admin\Services;
+namespace meilunzhi\Admin\Services;
 
 
-use Cameron\Admin\Models\System\Attachment;
+use meilunzhi\Admin\Models\System\Attachment;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Storage;
-use Cameron\Admin\Traits\HasError;
+use meilunzhi\Admin\Traits\HasError;
 
 class Uploader
 {

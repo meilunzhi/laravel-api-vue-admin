@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Cameron\Admin\Controllers\Auth;
+namespace meilunzhi\Admin\Controllers\Auth;
 
 use Illuminate\Routing\Controller;
-use Cameron\Admin\Repositories\Auth\RoleRepository;
-use Cameron\Admin\Services\Auth\RoleService;
+use meilunzhi\Admin\Repositories\Auth\RoleRepository;
+use meilunzhi\Admin\Services\Auth\RoleService;
 use Spatie\Permission\Models\Role;
 
 class RoleController extends Controller

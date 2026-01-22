@@ -1,6 +1,6 @@
 <?php
 
-namespace Cameron\Admin\Models\System;
+namespace meilunzhi\Admin\Models\System;
 
 use Illuminate\Database\Eloquent\Model;
 

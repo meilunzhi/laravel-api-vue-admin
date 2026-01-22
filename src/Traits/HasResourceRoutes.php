@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Cameron\Admin\Traits;
+namespace meilunzhi\Admin\Traits;
 
 
-use Cameron\Admin\Contracts\Service;
+use meilunzhi\Admin\Contracts\Service;
 
 trait HasResourceRoutes
 {

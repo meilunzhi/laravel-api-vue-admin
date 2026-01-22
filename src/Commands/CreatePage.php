@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Cameron\Admin\Commands;
+namespace meilunzhi\Admin\Commands;
 
 use Illuminate\Filesystem\Filesystem;
-use Cameron\Admin\Utils\Helper;
+use meilunzhi\Admin\Utils\Helper;
 
 class CreatePage
 {

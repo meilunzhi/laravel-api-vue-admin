@@ -39,7 +39,7 @@ class RouteServiceProvider extends ServiceProvider
     {
         $this->configureRateLimiting();
 
-        $registrar = new \Cameron\Admin\Routing\ResourceRegistrar($this->app['router']);
+        $registrar = new \meilunzhi\Admin\Routing\ResourceRegistrar($this->app['router']);
         $this->app->bind(\Illuminate\Routing\ResourceRegistrar::class, function() use ($registrar) {
             return $registrar;
         });

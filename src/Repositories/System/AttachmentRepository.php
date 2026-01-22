@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Cameron\Admin\Repositories\System;
+namespace meilunzhi\Admin\Repositories\System;
 
-use Cameron\Admin\Repository;
+use meilunzhi\Admin\Repository;
 
 class AttachmentRepository extends Repository
 {

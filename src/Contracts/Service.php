@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Cameron\Admin\Contracts;
+namespace meilunzhi\Admin\Contracts;
 
 
 interface Service

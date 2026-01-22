@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Cameron\Admin\Controllers\System;
+namespace meilunzhi\Admin\Controllers\System;
 
 
 use Illuminate\Routing\Controller;
-use Cameron\Admin\Contracts\Service;
-use Cameron\Admin\Traits\HasResourceRoutes;
+use meilunzhi\Admin\Contracts\Service;
+use meilunzhi\Admin\Traits\HasResourceRoutes;
 
 class DictionaryController extends Controller
 {

@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Cameron\Admin\Repositories\Auth;
+namespace meilunzhi\Admin\Repositories\Auth;
 
 use Illuminate\Support\Facades\DB;
-use Cameron\Admin\Repository;
+use meilunzhi\Admin\Repository;
 
 class AdminUserRepository extends Repository
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Cameron\Admin\Models\System;
+namespace meilunzhi\Admin\Models\System;
 
 use Illuminate\Database\Eloquent\Model;
-use Cameron\Admin\Services\System\AdminLogService;
-use Cameron\Admin\Traits\SerializeDate;
+use meilunzhi\Admin\Services\System\AdminLogService;
+use meilunzhi\Admin\Traits\SerializeDate;
 
 class AdminLog extends Model
 {

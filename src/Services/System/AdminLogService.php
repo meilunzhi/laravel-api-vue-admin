@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Cameron\Admin\Services\System;
+namespace meilunzhi\Admin\Services\System;
 
 
-use Cameron\Admin\Service;
+use meilunzhi\Admin\Service;
 
 class AdminLogService extends Service
 {

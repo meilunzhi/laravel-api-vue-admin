@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Cameron\Admin\Services\Auth;
+namespace meilunzhi\Admin\Services\Auth;
 
 
-use Cameron\Admin\Models\Auth\AdminUser;
-use Cameron\Admin\Service;
-use Cameron\Admin\Utils\Helper;
+use meilunzhi\Admin\Models\Auth\AdminUser;
+use meilunzhi\Admin\Service;
+use meilunzhi\Admin\Utils\Helper;
 use Illuminate\Support\Facades\DB;
 use Spatie\Permission\Models\Role;
 

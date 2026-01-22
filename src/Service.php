@@ -1,18 +1,18 @@
 <?php
 
 
-namespace Cameron\Admin;
+namespace meilunzhi\Admin;
 
 
-use Cameron\Admin\Factories\ServiceBindFactory;
-use Cameron\Admin\Traits\HasMultiDestroy;
-use Cameron\Admin\Traits\HasMultiEdit;
-use Cameron\Admin\Traits\HasResourceActions;
-use Cameron\Admin\Traits\HasValidate;
+use meilunzhi\Admin\Factories\ServiceBindFactory;
+use meilunzhi\Admin\Traits\HasMultiDestroy;
+use meilunzhi\Admin\Traits\HasMultiEdit;
+use meilunzhi\Admin\Traits\HasResourceActions;
+use meilunzhi\Admin\Traits\HasValidate;
 use Illuminate\Contracts\Routing\ResponseFactory;
 use Illuminate\Support\Facades\Validator;
 use League\Fractal\TransformerAbstract;
-use Cameron\Admin\Contracts\Service as ServiceInterface;
+use meilunzhi\Admin\Contracts\Service as ServiceInterface;
 
 abstract class Service implements ServiceInterface
 {
@@ -87,7 +87,7 @@ abstract class Service implements ServiceInterface
 
     /**
      * 获取服务实例
-     * @return \Cameron\Admin\Contracts\Service|static:class
+     * @return \meilunzhi\Admin\Contracts\Service|static:class
      * @throws \Exception
      */
     public static function instance()

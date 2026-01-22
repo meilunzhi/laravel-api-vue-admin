@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Cameron\Admin\Services;
+namespace meilunzhi\Admin\Services;
 
 
-use Cameron\Admin\Service;
+use meilunzhi\Admin\Service;
 
 class TestService extends Service
 {

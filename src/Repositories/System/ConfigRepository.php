@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Cameron\Admin\Repositories\System;
+namespace meilunzhi\Admin\Repositories\System;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Cache;
-use Cameron\Admin\Repository;
+use meilunzhi\Admin\Repository;
 
 class ConfigRepository extends Repository
 {

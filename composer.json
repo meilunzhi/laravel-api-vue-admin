@@ -1,11 +1,11 @@
 {
-    "name": "cameron/laravel-vue-admin",
+    "name": "meilunzhi/laravel-vue-admin",
     "description": "laravel-vue-admin",
     "type": "library",
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "cameron",
+            "name": "meilunzhi",
             "email": "meilunzhi@gmail.com"
         }
     ],
@@ -19,17 +19,32 @@
     },
     "autoload": {
         "psr-4": {
-            "Cameron\\Admin\\": "src/"
+            "meilunzhi\\Admin\\": "src/"
         }
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "allow-plugins": {
+            "php-http/discovery": true
+        },
+        "audit": {
+            "ignore": [
+                "PKSA-8qx3-n5y5-vvnd",
+                "PKSA-w7xr-vk7n-rstm"
+            ]
+        },
+        "block-insecure": false
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Cameron\\Admin\\AdminServiceProvider",
-                "Cameron\\Admin\\UEditorProvider"
+                "meilunzhi\\Admin\\AdminServiceProvider",
+                "meilunzhi\\Admin\\UEditorProvider"
             ],
             "aliases": {
-                "Service": "Cameron\\Admin\\"
+                "Service": "meilunzhi\\Admin\\"
             }
         }
     }

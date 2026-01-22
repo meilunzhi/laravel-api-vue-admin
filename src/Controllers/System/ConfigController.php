@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Cameron\Admin\Controllers\System;
+namespace meilunzhi\Admin\Controllers\System;
 
 
 use Illuminate\Routing\Controller;
-use Cameron\Admin\Services\System\DictionaryService;
-use Cameron\Admin\Contracts\Service;
-use Cameron\Admin\Traits\HasResourceRoutes;
+use meilunzhi\Admin\Services\System\DictionaryService;
+use meilunzhi\Admin\Contracts\Service;
+use meilunzhi\Admin\Traits\HasResourceRoutes;
 
 class ConfigController extends Controller
 {

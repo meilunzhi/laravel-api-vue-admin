@@ -1,10 +1,10 @@
 <?php
 
-namespace Cameron\Admin\Models\System;
+namespace meilunzhi\Admin\Models\System;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Cameron\Admin\Traits\SerializeDate;
+use meilunzhi\Admin\Traits\SerializeDate;
 
 class Album extends Model
 {

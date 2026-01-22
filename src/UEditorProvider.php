@@ -1,8 +1,8 @@
 <?php
 
-namespace Cameron\Admin;
+namespace meilunzhi\Admin;
 
-use Cameron\Admin\UEditor\UEditor;
+use meilunzhi\Admin\UEditor\UEditor;
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
 

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Cameron\Admin\Exceptions;
+namespace meilunzhi\Admin\Exceptions;
 
 use Exception;
 

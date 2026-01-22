@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Cameron\Admin\Traits;
+namespace meilunzhi\Admin\Traits;
 
 
 trait HasError

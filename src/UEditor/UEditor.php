@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Cameron\Admin\UEditor;
+namespace meilunzhi\Admin\UEditor;
 
 
-use Cameron\Admin\Models\System\Attachment;
+use meilunzhi\Admin\Models\System\Attachment;
 use Illuminate\Http\Request;
 
 class UEditor

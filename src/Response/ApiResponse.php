@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Cameron\Admin\Response;
+namespace meilunzhi\Admin\Response;
 
 use Illuminate\Support\Collection;
-use Cameron\Admin\Contracts\ApiResponseInterface;
+use meilunzhi\Admin\Contracts\ApiResponseInterface;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Model;
 use League\Fractal\TransformerAbstract;

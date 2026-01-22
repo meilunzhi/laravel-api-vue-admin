@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Cameron\Admin;
+namespace meilunzhi\Admin;
 
 
 use Illuminate\Support\Str;
-use Cameron\Admin\Contracts\Repository as RepositoryInterface;
-use Cameron\Admin\Factories\ServiceBindFactory;
+use meilunzhi\Admin\Contracts\Repository as RepositoryInterface;
+use meilunzhi\Admin\Factories\ServiceBindFactory;
 use Illuminate\Database\Eloquent\Model;
 
 /**
@@ -344,7 +344,7 @@ abstract class Repository implements RepositoryInterface
 
     /**
      * 实例化服务类
-     * @return \Cameron\Admin\Contracts\Repository|static::class
+     * @return \meilunzhi\Admin\Contracts\Repository|static::class
      * @throws \Illuminate\Contracts\Container\BindingResolutionException
      */
     public static function instance()

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Cameron\Admin\Commands;
+namespace meilunzhi\Admin\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;

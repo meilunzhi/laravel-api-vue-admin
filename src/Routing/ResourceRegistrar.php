@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Cameron\Admin\Routing;
+namespace meilunzhi\Admin\Routing;
 
 use Illuminate\Routing\ResourceRegistrar as BaseResourceRegistrar;
 use Illuminate\Routing\RouteCollection;

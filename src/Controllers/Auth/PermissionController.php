@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Cameron\Admin\Controllers\Auth;
+namespace meilunzhi\Admin\Controllers\Auth;
 
 
 use Illuminate\Routing\Controller;
-use Cameron\Admin\Repositories\Auth\PermissionRepository;
-use Cameron\Admin\Services\Auth\PermissionService;
+use meilunzhi\Admin\Repositories\Auth\PermissionRepository;
+use meilunzhi\Admin\Services\Auth\PermissionService;
 use Spatie\Permission\Models\Permission;
 
 class PermissionController extends Controller
