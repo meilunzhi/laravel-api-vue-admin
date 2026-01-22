@@ -76,7 +76,7 @@ class AdminServiceProvider extends ServiceProvider
             __DIR__ . '/../config/admin.php.stub'                => config_path('admin/admin.php'),
             __DIR__ . '/../config/permission.php.stub'           => config_path('permission.php'),
             __DIR__ . '/../routes/RouteServiceProvider.php.stub' => app_path('Providers/RouteServiceProvider.php'),
-            __DIR__ . '/../routes/admin.php'                     => base_path('routes/admin/admin.php'),
+            __DIR__ . '/../routes/admin/route.php'                => base_path('routes/admin/route.php'),
             __DIR__ . '/../resources/page'                       => resource_path('page'),
             __DIR__ . '/../resources/build'                      => base_path('build'),
             __DIR__ . '/../resources/plop-templates'             => resource_path('plop-templates'),
