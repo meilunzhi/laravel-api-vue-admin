@@ -1,12 +1,12 @@
 {
-    "name": "Meilunzhi/laravel-vue-admin",
+    "name": "meilunzhi/laravel-vue-admin",
     "description": "laravel-vue-admin",
     "type": "library",
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "Meilunzhi",
-            "email": "Meilunzhi@gmail.com"
+            "name": "meilunzhi",
+            "email": "meilunzhi@gmail.com"
         }
     ],
     "minimum-stability": "stable",
