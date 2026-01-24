@@ -1,7 +1,7 @@
 <?php
 
 
-namespace meilunzhi\Admin\Contracts;
+namespace Meilunzhi\Admin\Contracts;
 
 
 interface Service

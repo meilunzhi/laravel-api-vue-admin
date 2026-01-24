@@ -1,10 +1,10 @@
 <?php
 
 
-namespace meilunzhi\Admin\UEditor;
+namespace Meilunzhi\Admin\UEditor;
 
 
-use meilunzhi\Admin\Models\System\Attachment;
+use Meilunzhi\Admin\Models\System\Attachment;
 use Illuminate\Http\Request;
 
 class UEditor

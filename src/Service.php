@@ -1,18 +1,18 @@
 <?php
 
 
-namespace meilunzhi\Admin;
+namespace Meilunzhi\Admin;
 
 
-use meilunzhi\Admin\Factories\ServiceBindFactory;
-use meilunzhi\Admin\Traits\HasMultiDestroy;
-use meilunzhi\Admin\Traits\HasMultiEdit;
-use meilunzhi\Admin\Traits\HasResourceActions;
-use meilunzhi\Admin\Traits\HasValidate;
+use Meilunzhi\Admin\Factories\ServiceBindFactory;
+use Meilunzhi\Admin\Traits\HasMultiDestroy;
+use Meilunzhi\Admin\Traits\HasMultiEdit;
+use Meilunzhi\Admin\Traits\HasResourceActions;
+use Meilunzhi\Admin\Traits\HasValidate;
 use Illuminate\Contracts\Routing\ResponseFactory;
 use Illuminate\Support\Facades\Validator;
 use League\Fractal\TransformerAbstract;
-use meilunzhi\Admin\Contracts\Service as ServiceInterface;
+use Meilunzhi\Admin\Contracts\Service as ServiceInterface;
 
 abstract class Service implements ServiceInterface
 {
@@ -87,7 +87,7 @@ abstract class Service implements ServiceInterface
 
     /**
      * 获取服务实例
-     * @return \meilunzhi\Admin\Contracts\Service|static:class
+     * @return \Meilunzhi\Admin\Contracts\Service|static:class
      * @throws \Exception
      */
     public static function instance()

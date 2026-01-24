@@ -1,7 +1,7 @@
 <?php
 
 
-namespace meilunzhi\Admin\Utils;
+namespace Meilunzhi\Admin\Utils;
 
 
 class Helper

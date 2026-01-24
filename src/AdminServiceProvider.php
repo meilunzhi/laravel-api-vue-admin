@@ -1,14 +1,14 @@
 <?php
 
-namespace meilunzhi\Admin;
+namespace Meilunzhi\Admin;
 
 use Illuminate\Contracts\Routing\ResponseFactory;
-use meilunzhi\Admin\Commands\ImportSql;
-use meilunzhi\Admin\Commands\ResetAdmin;
-use meilunzhi\Admin\Commands\ServiceCommand;
+use Meilunzhi\Admin\Commands\ImportSql;
+use Meilunzhi\Admin\Commands\ResetAdmin;
+use Meilunzhi\Admin\Commands\ServiceCommand;
 use Illuminate\Support\ServiceProvider;
-use meilunzhi\Admin\Contracts\ApiResponseInterface;
-use meilunzhi\Admin\Response\ApiResponse;
+use Meilunzhi\Admin\Contracts\ApiResponseInterface;
+use Meilunzhi\Admin\Response\ApiResponse;
 use League\Fractal\TransformerAbstract;
 
 class AdminServiceProvider extends ServiceProvider

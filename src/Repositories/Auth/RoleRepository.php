@@ -1,10 +1,10 @@
 <?php
 
 
-namespace meilunzhi\Admin\Repositories\Auth;
+namespace Meilunzhi\Admin\Repositories\Auth;
 
 use Illuminate\Support\Facades\DB;
-use meilunzhi\Admin\Repository;
+use Meilunzhi\Admin\Repository;
 
 class RoleRepository extends Repository
 {

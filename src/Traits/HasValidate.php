@@ -1,7 +1,7 @@
 <?php
 
 
-namespace meilunzhi\Admin\Traits;
+namespace Meilunzhi\Admin\Traits;
 
 
 use Illuminate\Support\Facades\Validator;

@@ -1,11 +1,11 @@
 <?php
 
 
-namespace meilunzhi\Admin\Controllers\System;
+namespace Meilunzhi\Admin\Controllers\System;
 
 
 use Illuminate\Routing\Controller;
-use meilunzhi\Admin\Traits\HasResourceRoutes;
+use Meilunzhi\Admin\Traits\HasResourceRoutes;
 
 class AlbumController extends Controller
 {

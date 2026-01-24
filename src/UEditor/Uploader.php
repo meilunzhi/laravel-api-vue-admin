@@ -1,6 +1,6 @@
 <?php
 
-namespace meilunzhi\Admin\UEditor;
+namespace Meilunzhi\Admin\UEditor;
 
 use Illuminate\Support\Facades\Storage;
 

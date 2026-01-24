@@ -1,12 +1,12 @@
 {
-    "name": "meilunzhi/laravel-vue-admin",
+    "name": "Meilunzhi/laravel-vue-admin",
     "description": "laravel-vue-admin",
     "type": "library",
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "meilunzhi",
-            "email": "meilunzhi@gmail.com"
+            "name": "Meilunzhi",
+            "email": "Meilunzhi@gmail.com"
         }
     ],
     "minimum-stability": "stable",
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "meilunzhi\\Admin\\": "src/"
+            "Meilunzhi\\Admin\\": "src/"
         }
     },
     "config": {
@@ -40,11 +40,11 @@
     "extra": {
         "laravel": {
             "providers": [
-                "meilunzhi\\Admin\\AdminServiceProvider",
-                "meilunzhi\\Admin\\UEditorProvider"
+                "Meilunzhi\\Admin\\AdminServiceProvider",
+                "Meilunzhi\\Admin\\UEditorProvider"
             ],
             "aliases": {
-                "Service": "meilunzhi\\Admin\\"
+                "Service": "Meilunzhi\\Admin\\"
             }
         }
     }

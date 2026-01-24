@@ -1,8 +1,8 @@
 <?php
 
-namespace meilunzhi\Admin\Models\Auth;
+namespace Meilunzhi\Admin\Models\Auth;
 
-use meilunzhi\Admin\Traits\SerializeDate;
+use Meilunzhi\Admin\Traits\SerializeDate;
 use Spatie\Permission\Traits\HasRoles;
 use Tymon\JWTAuth\Contracts\JWTSubject;
 use Illuminate\Support\Facades\Hash;

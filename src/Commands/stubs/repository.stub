@@ -2,7 +2,7 @@
 
 namespace {%namespace%};
 
-use meilunzhi\Admin\Repository;
+use Meilunzhi\Admin\Repository;
 
 class {%name%}Repository extends Repository
 {

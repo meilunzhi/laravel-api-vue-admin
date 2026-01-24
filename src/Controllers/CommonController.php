@@ -1,13 +1,13 @@
 <?php
 
 
-namespace meilunzhi\Admin\Controllers;
+namespace Meilunzhi\Admin\Controllers;
 
 
 use Illuminate\Routing\Controller;
 use Illuminate\Routing\ResponseFactory;
-use meilunzhi\Admin\Services\Uploader;
-use meilunzhi\Admin\UEditor\UEditor;
+use Meilunzhi\Admin\Services\Uploader;
+use Meilunzhi\Admin\UEditor\UEditor;
 use Illuminate\Support\Facades\Log;
 use Tymon\JWTAuth\Token;
 

@@ -1,10 +1,10 @@
 <?php
 
 
-namespace meilunzhi\Admin\Traits;
+namespace Meilunzhi\Admin\Traits;
 
 
-use meilunzhi\Admin\Utils\Helper;
+use Meilunzhi\Admin\Utils\Helper;
 
 trait HasMultiEdit
 {

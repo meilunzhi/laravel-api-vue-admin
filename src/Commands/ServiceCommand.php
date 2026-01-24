@@ -1,12 +1,12 @@
 <?php
 
-namespace meilunzhi\Admin\Commands;
+namespace Meilunzhi\Admin\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
-use meilunzhi\Admin\Utils\Helper;
+use Meilunzhi\Admin\Utils\Helper;
 
 class ServiceCommand extends Command
 {

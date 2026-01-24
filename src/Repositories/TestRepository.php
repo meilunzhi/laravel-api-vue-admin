@@ -1,10 +1,10 @@
 <?php
 
 
-namespace meilunzhi\Admin\Repositories;
+namespace Meilunzhi\Admin\Repositories;
 
 
-use meilunzhi\Admin\Repository;
+use Meilunzhi\Admin\Repository;
 
 class TestRepository extends Repository
 {

@@ -1,10 +1,10 @@
 <?php
 
 
-namespace meilunzhi\Admin\Contracts;
+namespace Meilunzhi\Admin\Contracts;
 
 
-use meilunzhi\Admin\Response\Result;
+use Meilunzhi\Admin\Response\Result;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Model;

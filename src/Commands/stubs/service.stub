@@ -4,7 +4,7 @@
 namespace {%namespace%};
 
 
-use meilunzhi\Admin\Service;
+use Meilunzhi\Admin\Service;
 
 class {%name%}Service extends Service
 {

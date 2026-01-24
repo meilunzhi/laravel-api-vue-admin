@@ -1,10 +1,10 @@
 <?php
 
 
-namespace meilunzhi\Admin\Controllers;
+namespace Meilunzhi\Admin\Controllers;
 
 
-use meilunzhi\Admin\Traits\HasResourceRoutes;
+use Meilunzhi\Admin\Traits\HasResourceRoutes;
 
 class TestController
 {

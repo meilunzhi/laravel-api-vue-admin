@@ -1,8 +1,8 @@
 <?php
 
-namespace meilunzhi\Admin\Repositories\System;
+namespace Meilunzhi\Admin\Repositories\System;
 
-use meilunzhi\Admin\Repository;
+use Meilunzhi\Admin\Repository;
 
 class AdminLogRepository extends Repository
 {

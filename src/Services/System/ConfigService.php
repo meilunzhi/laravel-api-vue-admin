@@ -1,9 +1,9 @@
 <?php
 
 
-namespace meilunzhi\Admin\Services\System;
+namespace Meilunzhi\Admin\Services\System;
 
-use meilunzhi\Admin\Service;
+use Meilunzhi\Admin\Service;
 
 class ConfigService extends Service
 {

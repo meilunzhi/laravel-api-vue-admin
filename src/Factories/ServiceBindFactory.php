@@ -1,11 +1,11 @@
 <?php
 
 
-namespace meilunzhi\Admin\Factories;
+namespace Meilunzhi\Admin\Factories;
 
 use Illuminate\Support\Facades\Route;
-use meilunzhi\Admin\Contracts\Repository;
-use meilunzhi\Admin\Contracts\Service;
+use Meilunzhi\Admin\Contracts\Repository;
+use Meilunzhi\Admin\Contracts\Service;
 
 class ServiceBindFactory
 {
@@ -21,11 +21,11 @@ class ServiceBindFactory
     {
         $this->serviceName = $serviceName;
         $namespace = Route::current()->getAction('namespace');
-        if ($namespace === "meilunzhi\\Admin\\Controllers") {
+        if ($namespace === "Meilunzhi\\Admin\\Controllers") {
             config([
-                'admin.model_prefix' => "meilunzhi\\Admin\\Models",
-                'admin.repository_prefix' => "meilunzhi\\Admin\\Repositories",
-                'admin.service_prefix' => "meilunzhi\\Admin\\Services",
+                'admin.model_prefix' => "Meilunzhi\\Admin\\Models",
+                'admin.repository_prefix' => "Meilunzhi\\Admin\\Repositories",
+                'admin.service_prefix' => "Meilunzhi\\Admin\\Services",
             ]);
         }
         $this->buildClassName();

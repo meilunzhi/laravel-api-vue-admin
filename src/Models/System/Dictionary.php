@@ -1,9 +1,9 @@
 <?php
 
-namespace meilunzhi\Admin\Models\System;
+namespace Meilunzhi\Admin\Models\System;
 
 use Illuminate\Database\Eloquent\Model;
-use meilunzhi\Admin\Traits\SerializeDate;
+use Meilunzhi\Admin\Traits\SerializeDate;
 
 class Dictionary extends Model
 {

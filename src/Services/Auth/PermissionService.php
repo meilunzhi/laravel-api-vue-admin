@@ -1,11 +1,11 @@
 <?php
 
 
-namespace meilunzhi\Admin\Services\Auth;
+namespace Meilunzhi\Admin\Services\Auth;
 
 use Illuminate\Database\Eloquent\Model;
-use meilunzhi\Admin\Service;
-use meilunzhi\Admin\Utils\Helper;
+use Meilunzhi\Admin\Service;
+use Meilunzhi\Admin\Utils\Helper;
 use Illuminate\Validation\Rule;
 use Spatie\Permission\Models\Role;
 

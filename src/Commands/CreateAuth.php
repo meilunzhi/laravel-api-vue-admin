@@ -1,10 +1,10 @@
 <?php
 
 
-namespace meilunzhi\Admin\Commands;
+namespace Meilunzhi\Admin\Commands;
 
 use Illuminate\Support\Facades\DB;
-use meilunzhi\Admin\Utils\Helper;
+use Meilunzhi\Admin\Utils\Helper;
 
 class CreateAuth
 {

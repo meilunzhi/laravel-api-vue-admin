@@ -1,12 +1,12 @@
 <?php
 
 
-namespace meilunzhi\Admin\Controllers\Auth;
+namespace Meilunzhi\Admin\Controllers\Auth;
 
 use Illuminate\Contracts\Routing\ResponseFactory;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Routing\Controller;
-use meilunzhi\Admin\Services\Auth\AdminUserService;
+use Meilunzhi\Admin\Services\Auth\AdminUserService;
 
 class AuthController extends Controller
 {

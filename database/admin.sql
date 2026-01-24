@@ -166,7 +166,7 @@ CREATE TABLE `app_model_has_roles` (
 --
 
 INSERT INTO `app_model_has_roles` (`role_id`, `model_type`, `model_id`) VALUES
-(1, 'meilunzhi\\Admin\\Models\\Auth\\AdminUser', 1);
+(1, 'Meilunzhi\\Admin\\Models\\Auth\\AdminUser', 1);
 
 -- --------------------------------------------------------
 

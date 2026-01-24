@@ -1,12 +1,12 @@
 <?php
 
 
-namespace meilunzhi\Admin\Middleware;
+namespace Meilunzhi\Admin\Middleware;
 
 
 use Closure;
 use Illuminate\Support\Facades\Route;
-use meilunzhi\Admin\Models\System\AdminLog;
+use Meilunzhi\Admin\Models\System\AdminLog;
 use Spatie\Permission\Models\Permission;
 
 class LogOperation

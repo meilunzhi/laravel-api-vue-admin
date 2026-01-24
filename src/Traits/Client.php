@@ -1,10 +1,10 @@
 <?php
 
 
-namespace meilunzhi\Admin\Traits;
+namespace Meilunzhi\Admin\Traits;
 
 
-use meilunzhi\Admin\Exceptions\HttpRequestClientException;
+use Meilunzhi\Admin\Exceptions\HttpRequestClientException;
 use Illuminate\Support\Facades\Log;
 
 trait Client

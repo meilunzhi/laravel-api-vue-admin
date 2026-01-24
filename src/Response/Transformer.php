@@ -1,7 +1,7 @@
 <?php
 
 
-namespace meilunzhi\Admin\Response;
+namespace Meilunzhi\Admin\Response;
 
 
 use League\Fractal\Manager;

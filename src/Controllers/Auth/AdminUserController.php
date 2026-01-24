@@ -1,11 +1,11 @@
 <?php
 
 
-namespace meilunzhi\Admin\Controllers\Auth;
+namespace Meilunzhi\Admin\Controllers\Auth;
 
 use Illuminate\Routing\Controller;
-use meilunzhi\Admin\Contracts\Service;
-use meilunzhi\Admin\Traits\HasResourceRoutes;
+use Meilunzhi\Admin\Contracts\Service;
+use Meilunzhi\Admin\Traits\HasResourceRoutes;
 
 class AdminUserController extends Controller
 {

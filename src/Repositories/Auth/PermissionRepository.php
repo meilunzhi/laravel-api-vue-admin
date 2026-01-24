@@ -1,10 +1,10 @@
 <?php
 
 
-namespace meilunzhi\Admin\Repositories\Auth;
+namespace Meilunzhi\Admin\Repositories\Auth;
 
 use Illuminate\Support\Facades\Cache;
-use meilunzhi\Admin\Repository;
+use Meilunzhi\Admin\Repository;
 
 class PermissionRepository extends Repository
 {

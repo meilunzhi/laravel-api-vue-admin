@@ -1,13 +1,13 @@
 <?php
 
 
-namespace meilunzhi\Admin\Services;
+namespace Meilunzhi\Admin\Services;
 
 
-use meilunzhi\Admin\Models\System\Attachment;
+use Meilunzhi\Admin\Models\System\Attachment;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Storage;
-use meilunzhi\Admin\Traits\HasError;
+use Meilunzhi\Admin\Traits\HasError;
 
 class Uploader
 {

@@ -19,14 +19,14 @@ composer require laravel-vue-admin
 
     Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
     Spatie\Permission\PermissionServiceProvider::class,
-    meilunzhi\Admin\AdminServiceProvider::class,
+    Meilunzhi\Admin\AdminServiceProvider::class,
 ]
 ```
 ##### 发布资源
 
 ```bash
 php artisan vendor:publish --force
-// 选择发布Tymon\JWTAuth\Providers\LaravelServiceProvider和meilunzhi\Admin\AdminServiceProvider
+// 选择发布Tymon\JWTAuth\Providers\LaravelServiceProvider和Meilunzhi\Admin\AdminServiceProvider
 ```
 ##### 数据库配置
 
@@ -53,7 +53,7 @@ DB_PASSWORD=123456
     'providers' => [
         'admin_users' => [
              'driver' => 'eloquent',
-             'model' => meilunzhi\Admin\Models\Auth\AdminUser::class,
+             'model' => Meilunzhi\Admin\Models\Auth\AdminUser::class,
                 ],
     ]
 ```
@@ -87,13 +87,13 @@ php artisan jwt:secret
  // 2. 在$middlewareGroups数组中的api下面增加
    ...
 'api' => [
-    \meilunzhi\Admin\Middleware\LogOperation::class,
+    \Meilunzhi\Admin\Middleware\LogOperation::class,
 ],
 ...
  // 3. 在$routeMiddleware增加如下中间件
 ...
-    'service' => \meilunzhi\Admin\Middleware\HasService::class,
-    'permission' => \meilunzhi\Admin\Middleware\CheckPermission::class,
+    'service' => \Meilunzhi\Admin\Middleware\HasService::class,
+    'permission' => \Meilunzhi\Admin\Middleware\CheckPermission::class,
 ...
 ```
 

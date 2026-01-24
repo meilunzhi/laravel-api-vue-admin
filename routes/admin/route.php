@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::prefix('admin')->namespace('meilunzhi\Admin\Controllers')->middleware('api')->group(function () {
+Route::prefix('admin')->namespace('Meilunzhi\Admin\Controllers')->middleware('api')->group(function () {
     // 用户认证
     Route::post('login', 'Auth\AuthController@login');
     Route::post('logout', 'Auth\AuthController@logout');

@@ -1,10 +1,10 @@
 <?php
 
 
-namespace meilunzhi\Admin\Services\Auth;
+namespace Meilunzhi\Admin\Services\Auth;
 
-use meilunzhi\Admin\Repositories\Auth\RoleRepository;
-use meilunzhi\Admin\Service;
+use Meilunzhi\Admin\Repositories\Auth\RoleRepository;
+use Meilunzhi\Admin\Service;
 use Illuminate\Validation\Rule;
 use Spatie\Permission\Models\Role;
 
